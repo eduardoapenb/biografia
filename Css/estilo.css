@@ -1,0 +1,111 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+}
+figure{
+    margin: 0;
+}
+ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+div {
+   /*border: 1px solid red;*/
+
+    }
+
+.header  ul{
+    display: flex;
+    height: inherit;
+  }
+  .header ul li{
+    height: inherit;
+  }
+
+
+
+.header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        background-color: #091D36;
+        color: white;
+        
+
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding: 0 10px;
+    margin: 23px;
+}
+
+.header div {
+    display: flex;
+    /*height: 90px;*/
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.header-div-logo{
+    display: inherit;
+    width: 275px;
+    justify-content: space-between;
+    vertical-align: middle;
+    padding: 10px 20px;
+}
+
+.header-name{
+    margin: 0;
+}
+
+.header-logo{
+    display: inherit;
+    justify-content: space-between;
+    vertical-align: middle; 
+
+}
+
+.header-div-menu{
+    display: inherit;
+    width: 500px;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+.container{
+    
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    flex-wrap: inherit;
+    justify-content: inherit;
+    align-content: inherit;
+    align-items: inherit;
+
+}
+
+.hero{
+    background-color: #091D36;
+    height: 200px;
+    align-items: center;
+    display: flex;
+}
+
+.hero h1 {
+    color: white;
+    margin: 0px;
+}
+.hero strong {
+    color:#5E83BA;
+}
+
+
+
+
