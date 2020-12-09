@@ -51,6 +51,7 @@ div {
     /*height: 90px;*/
     justify-content: space-between;
     vertical-align: middle;
+   
 }
 
 .header-div-logo{
@@ -77,7 +78,9 @@ div {
     width: 500px;
     justify-content: space-between;
     vertical-align: middle;
+    
 }
+
 
 .container{
     
@@ -91,11 +94,28 @@ div {
 
 }
 
+.container-header{
+    
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    flex-wrap: inherit;
+    justify-content: inherit;
+    align-content: inherit;
+    align-items: inherit;
+    box-shadow: -8px 32px 10px -26px black;
+}
+
 .hero{
     background-color: #091D36;
     height: 200px;
     align-items: center;
     display: flex;
+    background-image: url('../Imagenes/20350.jpg');
+    background-size: 1600px 1200px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: -347px;
 }
 
 .hero h1 {
@@ -106,6 +126,10 @@ div {
     color:#5E83BA;
 }
 
+.biografia{
+/*background-image: url('../Imagenes/101_0118.JPG');*/
+
+}
 
 
 
