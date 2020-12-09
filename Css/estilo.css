@@ -121,6 +121,7 @@ div {
 .hero h1 {
     color: white;
     margin: 0px;
+    text-shadow: 0px 1px 3px darkblue;
 }
 .hero strong {
     color:#5E83BA;
